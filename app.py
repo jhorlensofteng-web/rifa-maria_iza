@@ -427,7 +427,7 @@ INDEX_TMPL = BASE_HEAD + """
       {% if printable_start %}
       <a href="{{ url_for('printable_public') }}" class="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-slate-700 shadow-sm hover:bg-slate-100 transition">Bilhetes impressos</a>
       {% endif %}
-      <a href="https://wa.me/5592994407981?text=Ol%C3%A1.%20Gostaria%20de%20comprar%20n%C3%BAmeros%20da%20Rifa%20Beneficente%20da%20Dona%20Iza!" target="_blank"
+      <a href="https://wa.me/5597981108985?text=Ol%C3%A1.%20Gostaria%20de%20comprar%20n%C3%BAmeros%20da%20Rifa%20Beneficente%20da%20Dona%20Iza!" target="_blank"
          class="inline-flex items-center gap-2 rounded-full bg-emerald-50 border border-emerald-400 px-5 py-2 text-emerald-700 font-semibold shadow-sm hover:bg-emerald-100 hover:border-emerald-500 transition-all duration-200">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="h-5 w-5 fill-emerald-600">
           <path d="M16.003 3.003A12.99 12.99 0 0 0 3 16.002a12.93 12.93 0 0 0 1.844 6.669L3 29l6.518-1.82A12.95 12.95 0 0 0 16.003 29c7.168 0 12.997-5.83 12.997-12.998 0-7.167-5.83-12.998-12.997-12.998zm0 23.404a10.37 10.37 0 0 1-5.269-1.448l-.377-.223-3.87 1.083 1.035-3.951-.244-.405a10.37 10.37 0 0 1-1.565-5.46c0-5.735 4.666-10.401 10.39-10.401a10.3 10.3 0 0 1 10.388 10.401c0 5.733-4.654 10.404-10.388 10.404zm5.703-7.787c-.311-.155-1.839-.905-2.125-1.009-.285-.104-.492-.155-.698.156-.205.311-.8 1.008-.98 1.214-.18.205-.36.232-.67.078-.312-.155-1.318-.485-2.51-1.545-.928-.827-1.554-1.846-1.737-2.157-.18-.312-.02-.48.136-.635.139-.138.312-.36.467-.54.156-.18.207-.312.311-.518.104-.205.052-.389-.026-.544-.078-.155-.698-1.676-.958-2.296-.25-.6-.506-.518-.698-.528l-.597-.011a1.15 1.15 0 0 0-.83.389c-.285.312-1.09 1.064-1.09 2.595s1.117 3.011 1.272 3.222c.155.207 2.196 3.354 5.32 4.703.744.322 1.324.514 1.775.659.745.237 1.424.204 1.96.123.598-.089 1.838-.75 2.098-1.477.26-.728.26-1.35.182-1.477-.077-.128-.285-.206-.596-.361z"/>
@@ -452,7 +452,7 @@ INDEX_TMPL = BASE_HEAD + """
   </div>
 
   <div class="rounded-2xl border border-dashed border-slate-200 bg-white/60 p-4 text-center text-sm text-slate-600">
-    <p>Quer garantir um número online? Envie uma mensagem dizendo quais números (1–200) deseja reservar. Para os físicos 201–300, use a página de impressão e marque a venda no painel.</p>
+    <p>Quer garantir um número online? Envie uma mensagem dizendo quais números (1–200) deseja reservar.</p>
   </div>
 </div>
 
@@ -665,7 +665,7 @@ PRINT_TICKETS_TMPL = """
         <p style="margin:0 0 6px;font-size:0.8rem;">Rifa Beneficente · Viagem da Dona Iza</p>
         <p style="margin:0 0 8px;font-size:0.75rem;color:#475569;">Valor: R$3,00 (1 número) · Promo: 2 por R$5,00</p>
         <p style="margin:0 0 6px;font-size:0.75rem;color:#475569;">Prêmios: 2 redes de crochê + 2 PIX de R$50.</p>
-        <p style="margin:0;font-size:0.7rem;color:#94a3b8;">Sorteio: 30/11/2025 · Contato: (92) 99440-7981</p>
+        <p style="margin:0;font-size:0.7rem;color:#94a3b8;">Sorteio: 30/11/2025 · Contato: (97) 98110-8985</p>
         <p style="margin:6px 0 0;font-size:0.75rem;color:#0f172a;font-weight:600;">Comprovante Nº {{ '%03d' % ticket['number'] }}</p>
       </div>
     </section>
