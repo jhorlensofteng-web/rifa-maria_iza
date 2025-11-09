@@ -591,11 +591,11 @@ PRINT_TICKETS_TMPL = """
   .slip {
     background: #fff;
     border: 2px dashed #e2e8f0;
-    padding: 16px;
+    padding: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
-    min-height: 170px;
+    min-height: 115px;
   }
   .stub {
     border-right: 1px dashed #e2e8f0;
